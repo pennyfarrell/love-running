@@ -122,22 +122,23 @@ h2 {
 #club-ethos {
     height: 600px;
 }
+
 #left-about {
     padding-top: 30px;
     width: 30%;
     float: left;
-   }
+}
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    }
+}
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-   }
+}
 
 hr {
     border-top: 1px solid #3a3a3a;
@@ -166,7 +167,7 @@ hr {
 }
 
 .right-about-heading p {
-    text-align: right;    
+    text-align: right;
 }
 
 #welcome {
@@ -213,8 +214,29 @@ hr {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
-    }
+}
 
-    #times h2 {
-        color: #fafafa;
-    }
+#times h2 {
+    color: #fafafa;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
