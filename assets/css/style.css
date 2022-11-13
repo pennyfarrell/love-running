@@ -258,7 +258,7 @@ footer {
 
 /* For larger to medium screens size from 1200px wide and down*/
 @media and (max-width: 1200px) {
-    #club ethos {
+    #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -294,4 +294,29 @@ footer {
     margin-left: 30px;
     margin-bottom: 20px;
     line-height: 25ps;
+}
+
+#cover-text {
+    left: 0;
+}
+
+#club-ethos {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+.left-about-heading,
+.right-about-heading {
+    width: inherit;
+}
+
+.left-about-heading h2, .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.left-about-heading p, .right-about-heading p {
+    text-align: center;
+    padding: 0 auto;
 }
